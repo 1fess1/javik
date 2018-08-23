@@ -3,7 +3,7 @@
 <@c.page>
 <h5>${username}</h5>
     ${message?ifExists}
-<form method="post" accept-charset=«utf-8»>
+<form method="post" accept-charset="utf-8">
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Password:</label>
         <div class="col-sm-6">
