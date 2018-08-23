@@ -3,7 +3,7 @@
 <@c.page>
 User editor
 
-<form action="/user" method="post">
+<form action="/user" method="post" accept-charset="utf-8">
     <input type="text" name="username" value="${user.username}">
     <#list roles as role>
     <div>
